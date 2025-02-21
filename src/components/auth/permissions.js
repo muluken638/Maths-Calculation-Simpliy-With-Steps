@@ -1,0 +1,31 @@
+export const permissions = {
+    admin: {
+      canViewDashboard: true,
+      canManageDriver: true,
+      canManageUsers: true,
+      canManageOrders: true,
+      canManageInventory: true,
+      canViewReports: true,
+      canManageSettings: true,
+      canViewAuditLogs: true,
+      canNumberTheory:true,
+      canAlgebraAndArthmetic:true,
+      canProbabilityStatistics:true,
+      canpatterRecognation:true,
+    },
+    manager: {
+      canViewDashboard: true,
+      canManageProducts: true,
+      canManageOrders: true,
+      canManageInventory: true,
+      canViewReports: true,
+      canManageTeam: true,
+    },
+    user: {
+      canViewDashboard: true,
+      canBrowseProducts: true,
+      canManageOrders: true,
+      canManageProfile: true,
+      canViewNotifications: true,
+    },
+  };
